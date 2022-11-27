@@ -14,10 +14,10 @@
   padding: 50px 0;
   margin: 0 auto;
   position: relative;
-  top:200px;
+  top: 200px;
 }
 
-#hero-content h1{
+#hero-content h1 {
   color: white;
   text-transform: uppercase;
   font-size: 50px;
@@ -25,7 +25,7 @@
   margin: 0;
 }
 
-#hero-content p{
+#hero-content p {
   color: white;
   text-transform: uppercase;
   font-size: 24px;
@@ -33,7 +33,7 @@
   margin-bottom: 32px;
 }
 
-#hero-content a{
+#hero-content a {
   text-decoration: none;
   background-color: rgb(255, 251, 0);
   padding: 12px 24px;
@@ -44,17 +44,46 @@
   box-shadow: 2px 4px 6px rgb(68, 67, 67);
 }
 
-#hero-content a:hover{
+#hero-content a:hover {
   background-color: rgb(255, 174, 0);
 }
 
-#destinations{
+#highlights h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 40px;
+  color: rgb(59, 65, 64);
+  margin: 24px 0;
+}
+
+#destinations {
   display: flex;
   width: 90%;
   margin: auto;
   margin-bottom: 40px;
+  justify-content: center;
 }
 
-.destination img{
+.destination {
+  margin: 0 20px;
+  text-transform: uppercase;
+}
+
+.destination p {
+  text-align: center;
+  font-size: 24px;
+  color: rgb(124, 123, 123);
+  margin: 20px 0;
+}
+
+.destination img {
   height: 200px;
+  width: 100%;
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.destination strong {
+  color: rgb(0, 160, 117);
 }
